@@ -1,0 +1,79 @@
+body{
+  margin: 0 ;
+  padding: 0;
+}
+header{
+  background-image: url("6.jpeg");
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+.div{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.div h1{
+  font-size: 400%;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin: 0;
+}
+.div h4{
+  font-size: 200%;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin: 0;
+}
+.div a{
+  color: white;
+  font-size: 200%;
+}
+.main {
+  width:75%;
+  margin-left: 12.5%;
+}
+.main h1{
+  font-size: 400%;
+  color: brown;
+  padding-bottom: 0;
+  padding-top: 55px;
+  margin: 0;
+}
+.main p{
+  font-size: 110%;
+  padding:2% ;
+}
+.photos{
+  padding-top: 25px;
+  height: 100vh;
+  width: 75vw;
+  margin-left:12.5%;
+}
+.photos1{
+  width: 49%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.photos1 img{
+  width: 100%;
+  height: 300px;
+ padding-bottom:1%;
+}
+.photos2{
+  width: 49%;
+  float: right;
+  margin: 0;
+  padding: 0;
+
+}
+.photos2 img{
+  width: 100%;
+  height: 610px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
